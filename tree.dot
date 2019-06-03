@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="speechiness <= 0.68\ngini = 0.7\nsamples = 12738\nvalue = [545, 1178, 1442, 2601, 5307, 9097]\nclass = 2010", fillcolor="#e5399d41"] ;
+1 [label="loudness <= 0.4\ngini = 0.72\nsamples = 11191\nvalue = [531, 1117, 1386, 2421, 4723, 7537]\nclass = 2010", fillcolor="#e5399d37"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="instrumentalness <= 0.26\ngini = 0.76\nsamples = 6646\nvalue = [419, 920, 1053, 1648, 2466, 4009]\nclass = 2010", fillcolor="#e5399d31"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+3528 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3528 ;
+4273 [label="energy <= 1.14\ngini = 0.65\nsamples = 4545\nvalue = [112, 197, 333, 773, 2257, 3528]\nclass = 2010", fillcolor="#e5399d42"] ;
+1 -> 4273 ;
+4274 [label="(...)", fillcolor="#C0C0C0"] ;
+4273 -> 4274 ;
+6043 [label="(...)", fillcolor="#C0C0C0"] ;
+4273 -> 6043 ;
+6968 [label="energy <= -0.2\ngini = 0.53\nsamples = 1547\nvalue = [14, 61, 56, 180, 584, 1560]\nclass = 2010", fillcolor="#e5399d85"] ;
+0 -> 6968 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+6969 [label="energy <= -1.24\ngini = 0.4\nsamples = 505\nvalue = [5, 13, 30, 60, 83, 622]\nclass = 2010", fillcolor="#e5399dbc"] ;
+6968 -> 6969 ;
+6970 [label="(...)", fillcolor="#C0C0C0"] ;
+6969 -> 6970 ;
+7011 [label="(...)", fillcolor="#C0C0C0"] ;
+6969 -> 7011 ;
+7164 [label="tempo <= -0.66\ngini = 0.57\nsamples = 1042\nvalue = [9, 48, 26, 120, 501, 938]\nclass = 2010", fillcolor="#e5399d62"] ;
+6968 -> 7164 ;
+7165 [label="(...)", fillcolor="#C0C0C0"] ;
+7164 -> 7165 ;
+7376 [label="(...)", fillcolor="#C0C0C0"] ;
+7164 -> 7376 ;
+}
