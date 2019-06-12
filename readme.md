@@ -44,7 +44,7 @@ Restricting the data to the middles 7 years of each decade, to greater distingui
 <a id='conclusions'></a>
 # Conclusions
 
-- We can achieve 9.5% accuracy over the baseline in classifying the decades of songs based on their features. Random forest algorithms handle this problem most effectively.
-- We can predict, with 70% accuracy, whether a song was released pre- or post-2010.
+- We can achieve 28.2% accuracy over the baseline in classifying the decades of songs based on their features. Random forest algorithms handle this problem most effectively.
+- We can predict, with 77.5% accuracy (18.8% above the baseline), whether a song was released pre- or post-2000.
 - Loudness is the defining feature in determining how the sound of music has changed over the epochs. As we initially hypothesized, it all comes down to the master!
 - For modern producers, whether you like the new production standards or not, a loud master is now the default for popular tracks, and you may need to stick to it to earn success.
