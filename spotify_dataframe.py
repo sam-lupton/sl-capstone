@@ -2,8 +2,8 @@ import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-client_id = 'API--key--here'
-client_secret = 'API--secret--here'
+client_id = '5cf34aa394ce41348e14e191abcbcabf'
+client_secret = '0614e00064074071a42582fc6acda813'
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) #spotify object to access API
 
@@ -22,7 +22,7 @@ def df_tracks(tracklist):
 
     df.rename(columns={'uri':'song_uri'}, inplace=True)
 
-    df.drop_duplicates(subset=['artist', 'track'], inplace=True)
+    df.drop_duplicates(subset=['artist', 'track', 'release_date'], inplace=True)
 
     # Reorder the cols to have identifiers first, predictors last
     cols = ['artist', 'album_name', 'album_uri', 'track', 'release_date', 'id', 'song_uri', 'track_href',

@@ -1,5 +1,5 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 'Music these days all sounds the same'
-How to disprove your grandparents in a few simple steps
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 'The Mix, the Master and the Model'
+Classifying Spotify tracks by decade using auditory features
 
 # Contents
 - [Summary](#summary)
