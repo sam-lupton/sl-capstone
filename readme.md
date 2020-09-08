@@ -11,7 +11,7 @@ Classifying Spotify tracks by decade using auditory features
 <a id='summary'></a>
 # Summary
 
-This project aims to predict the decade of a song's release based on auditory features determined by Spotify. As with most classification problems, my main metrics were accuracy, precision and recall. Along the way I aimed to study the changing tastes of music, and I found that some events in the history of music production were reflected in the data. For instance, music has got measurably 'louder' over time, as better technology allows mastering engineers to normalize a track closer to the maximum output of a speaker. The main blockers I found were sampling bias in selecting tracks, class imbalance in the song decades, duplication in the different versions of a song, and the fact that genre is often more distinguishing than period.
+This project aims to predict the decade of a song's release based on auditory features determined by Spotify. As with most classification problems, my main metrics were accuracy, precision and recall. Along the way I aimed to study the changing tastes of music, and I found that some events in the history of music production were reflected in the data. For instance, music has got measurably louder over time, as better technology allows mastering engineers to normalize a track closer to the maximum output of a speaker. The main blockers I found were sampling bias in selecting tracks, class imbalance in the song decades, duplication in the different versions of a song, and the fact that genre is often more distinguishing than period.
 
 <a id='data'></a>
 # Data
